@@ -5,7 +5,7 @@ services:
     container_name: jenkins
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./jenkins_home:/var/jenkins_home
+      - ./jenkins_home:/var/jenkins_home:lts
     networks:
       - cinetwork
     restart: always
