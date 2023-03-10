@@ -10,7 +10,3 @@ services:
       - cinetwork
     restart: always
 
-networks:
-  cinetwork:
-    name: cinetwork
-    driver: bridge
