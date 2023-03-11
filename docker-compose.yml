@@ -8,7 +8,6 @@ services:
     user: root
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /usr/bin/docker:/usr/bin/docker
       - ./jenkins_home:/var/jenkins_home:lts
     restart: always
 
